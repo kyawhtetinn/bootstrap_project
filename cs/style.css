@@ -86,7 +86,7 @@ header .user img{
 	border-radius: 50%;
 	object-fit: cover;
 	margin-bottom: 1rem;
-	border: .7rem solid var(--yellow);
+	border: .7rem solid yellow;
 }
 
 header .user .name{
@@ -117,7 +117,9 @@ header .navbar ul li a{
 }
 
 header .navbar ul li a:hover{
-	background: var(--yellow);
+	background: yellow;
+	padding: 1.5rem;
+	color: #000;
 }
 
 #menu{
@@ -155,6 +157,7 @@ header .navbar ul li a:hover{
 	font-size: 2rem;
 	color: #eee;
 	padding: 1rem 0;
+	text-transform: none;
 }
 
 .heading{
@@ -253,6 +256,7 @@ header .navbar ul li a:hover{
 	font-size: 1.4rem;
 	color: #eee;
 	padding: 1rem 0;
+	text-transform: none;
 }
 
 .education .box-container .box i{
@@ -346,6 +350,7 @@ header .navbar ul li a:hover{
 	color: #eee;
 	padding: 1rem 0;
 	font-weight: normal;
+	text-transform: none;
 }
 
 .contact .row .content .info h3 i{
